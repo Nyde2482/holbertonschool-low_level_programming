@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * isupper
+ * _isupper - verif maj
  * @c: caractere verifier
  * Return: 1 si maj sinon 0
  */
