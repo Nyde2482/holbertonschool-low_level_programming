@@ -1,8 +1,8 @@
 #include "main.h"
-/** 
+/**
  * _isdigit - verif number
  * @c : caractere verif
- * Return: 1 if c is a digit otherwise 0 
+ * Return: 1 if c is a digit otherwise 0
  */
 int _isdigit(int c)
 {
