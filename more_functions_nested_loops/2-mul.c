@@ -10,3 +10,8 @@ int mul(int a, int b)
 {
 return (a * b);
 }
+
+int main(void)
+{
+	printf("%d", mul(3, 4))
+}
