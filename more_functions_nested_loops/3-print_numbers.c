@@ -1,12 +1,17 @@
 #include "main.h"
+
 /**
- * print_numbers - number 0 to 9
- * followed by a line break
+ * print_numbers - prints numbers from 0 to 9
  */
+
 void print_numbers(void)
 {
-char c;
-for (c ='o'; c <= '9'; c++)
-_putchar(c); // print current number
-_putchar('\n'); // line break at the end
+	int i = 0;
+
+	for (i = 0 ; i < 10 ; i++)
+	{
+		_putchar(i + '0');
+	}
+
+	_putchar('\n');
 }
