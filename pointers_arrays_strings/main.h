@@ -14,4 +14,5 @@ char *_strcpy(char *dest, char *src);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
+char *_memset(char *s, char b, unsigned int n);
 #endif
