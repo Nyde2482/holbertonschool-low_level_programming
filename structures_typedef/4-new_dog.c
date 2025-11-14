@@ -5,13 +5,9 @@
 #include "dog.h"
 
 /**
- * new_dog - the new dog struct
- *
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
- *
- * Return: ptr_dog (the new dog)
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
