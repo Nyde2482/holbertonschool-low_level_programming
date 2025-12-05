@@ -16,7 +16,6 @@ int main(int argc, char *argv[])
 	ssize_t bytes_read;
 	ssize_t bytes_written;
 	char buffer[1024];
-
 	char *prog_name = "cp";
 
 	if (argc != 3)
