@@ -2,19 +2,15 @@
 
 /**
  * main - copies the contents of one file to another
+ * @argc: number of arguments
+ * @argv: array of argument strings
  *
- * @argc: the number of command-line arguments
- * @argv: an array of strings containing the command-line arguments
- *
- * Return: 0 on success
- *         or an appropriate error code on failure
+ * Return: 0 on success, exits with codes on failure
  */
 int main(int argc, char *argv[])
 {
-	int file_from;
-	int file_to;
-	ssize_t bytes_read;
-	ssize_t bytes_written;
+	int file_from, file_to;
+	ssize_t bytes_read, bytes_written;
 	char buffer[1024];
 	char *prog_name = "cp";
 
